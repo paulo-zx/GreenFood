@@ -1,0 +1,99 @@
+section {
+    padding: 4.5rem 0  1.5rem;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 440px;
+    display: flex;
+    align-items: center;
+    
+    background: url(./piso.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    /* extra*/
+    margin-top:10%;
+}
+
+.container img {
+    width: 400px;
+    position: absolute;
+    /*bottom: -500px;*/
+    right: 200px;
+    border-radius: 60%;
+    top: 90px;
+}
+
+.home-text {
+    padding: 0 150px;
+    padding-top: 5%;
+   
+
+}
+
+.home-text span{
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--bg-color);
+}
+
+.home-text h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.btn{
+    padding: 0.6rem 1rem;
+    background: var(--green-color);
+    color: var(--bg-color);
+    font-weight: 400;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 00.5rem;
+    max-width: 160px;
+}
+
+.btn .bx {
+    padding: 4px;
+    background: var(--bg-color);
+    color: var(--text-color);
+    border-radius: 1rem;
+    font-size: 20px;
+    margin: auto;
+}
+
+.btn:hover {
+    background: var(--light-orange-color);
+    transition: 0.2s ease;
+}
+
+.swiper-button-next{
+    background: url(./arrow1.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    margin-right: 20px;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-prev{
+    background: url(./arrow2.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    margin-left: 20px;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}

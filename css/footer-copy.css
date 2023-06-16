@@ -1,0 +1,19 @@
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
+
+.social-paulo .bx{
+    padding: 10px;
+    background: var(--bg-color);
+    color: var(--green-color);
+    border-radius: 5rem;
+    font-size: 20px;
+
+}
+
+.social-paulo .bx:hover{
+    background: var(--green-color);
+    color: var(--bg-color);
+    transition: 0.2s all linear;
+}

@@ -1,0 +1,114 @@
+.contact {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact  .heading{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    flex-direction: column;
+}
+
+.contact .heading h2{
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--green-color);
+}
+
+.contact  .heading p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.contact-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.contact-info{
+    flex: 1 1 20rem;
+}
+
+.contact-form{
+    flex: 1 1 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info h2{
+    font-size: 1.3rem;
+    
+}
+
+.contact-info p{
+    margin: 0.5rem 0 1rem;
+}
+
+.adress{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.adress i{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+}
+
+.adress span{
+    font-size: 1rem;
+    margin-left: 1rem;
+
+}
+
+.contact-form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, textarea{
+    width: 100%;
+    padding: 17px;
+    border-radius: 0.5rem;
+    outline: none;
+    margin-bottom: 1rem;
+    border: 2px solid var(--green-color);
+    box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%); 
+}
+
+form input::placeholder,
+textarea::placeholder{
+    color: var(--green-color);
+}
+
+form textarea{
+    resize: none;
+    height: 150px;
+}
+
+form .btn{
+    max-width: 100px;
+    background: var(--green-color);
+    color: var(--bg-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    
+}
+
+form .btn:hover{
+    background: var(--orange-color);
+}
